@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-python-telegram-bot = "*"
+python-telegram-bot = {extras = ["socks"],version = "*"}
 
 [requires]
 python_version = "3.6"
