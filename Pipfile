@@ -6,7 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-python-telegram-bot = "*"
+python-telegram-bot = {extras = ["socks"],version = "*"}
+ephem = "*"
+nose = "*"
+wemake-python-styleguide = "*"
+flake8-per-file-ignores = "*"
 
 [requires]
 python_version = "3.6"
